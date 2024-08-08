@@ -1,0 +1,36 @@
+/* Ensure the path to the image is correct */
+body {
+    background-image: url('../images/black-lamborghini.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.form-control-file {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.alert-info {
+    background-color: rgba(23, 162, 184, 0.8);
+}
